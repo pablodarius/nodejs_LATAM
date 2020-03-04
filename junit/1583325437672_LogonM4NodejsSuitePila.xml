@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="3" time="4.051">
+ <testsuite name="Logon M4Nodejs Suite Pila" timestamp="2020-03-04T13:37:19" hostname="localhost" time="4.051" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should create an instance" time="0.001" />
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should do logon" time="0.336" />
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Tipo cotizante NOT 23 for Planilla E" time="3.508" />
+ </testsuite>
+</testsuites>

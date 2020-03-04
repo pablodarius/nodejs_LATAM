@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="3" time="1.096">
+ <testsuite name="Logon M4Nodejs Suite" timestamp="2020-03-03T12:53:11" hostname="localhost" time="1.096" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="Logon M4Nodejs Suite" name="Should create an instance" time="0.001" />
+  <testcase classname="Logon M4Nodejs Suite" name="Should do logon" time="0.396" />
+  <testcase classname="Logon M4Nodejs Suite" name="Should load employee name" time="0.475">
+   <failure type="exception" message="[object Object] thrown"><![CDATA[[object Object] thrown]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="3" time="2.56">
+ <testsuite name="Logon M4Nodejs Suite Pila" timestamp="2020-03-04T10:27:54" hostname="localhost" time="2.56" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should create an instance" time="0" />
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should do logon" time="0.386" />
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should execute Colombia Pila" time="1.952">
+   <failure type="toBeTruthy" message="Expected null to be truthy."><![CDATA[Error: Expected null to be truthy.
+    at <Jasmine>
+    at C:\M4CI_scripts\workshop_node\__tests__\m4nodePila.spec.ts:33:31
+    at step (C:\M4CI_scripts\workshop_node\__tests__\m4nodePila.spec.ts:33:23)
+    at Object.next (C:\M4CI_scripts\workshop_node\__tests__\m4nodePila.spec.ts:14:53)
+    at fulfilled (C:\M4CI_scripts\workshop_node\__tests__\m4nodePila.spec.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

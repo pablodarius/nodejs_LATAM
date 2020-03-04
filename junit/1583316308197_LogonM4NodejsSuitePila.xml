@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="3" time="2.549">
+ <testsuite name="Logon M4Nodejs Suite Pila" timestamp="2020-03-04T11:05:09" hostname="localhost" time="2.549" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should create an instance" time="0" />
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should do logon" time="0.357" />
+  <testcase classname="Logon M4Nodejs Suite Pila" name="Should execute Colombia Pila" time="1.981">
+   <failure type="exception" message="Error setting item &lt;SCB_P_FECHA_EFECTIVA&gt; value: Invalid date/time value: &quot;2019/11/01&quot; for item SCB_P_FECHA_EFECTIVA thrown"><![CDATA[Error setting item <SCB_P_FECHA_EFECTIVA> value: Invalid date/time value: "2019/11/01" for item SCB_P_FECHA_EFECTIVA thrown]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
