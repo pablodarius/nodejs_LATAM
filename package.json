@@ -4,20 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json"
+    "build": "tsc",
+    "test": "ts-node node_modules/jasmine/bin/jasmine --filter=Pila --config=jasmine.json",
+    "devExecuteRequest": "ts-node-dev --respawn --transpileOnly ./__src__/executeRequest.ts",
+    "devLogon": "ts-node-dev --respawn --transpileOnly ./__src__/logon.ts",
+    "devLoadMetadata": "ts-node-dev --respawn --transpileOnly ./__src__/loadMetadata.ts"
   },
   "author": "pablopd",
   "license": "ISC",
   "devDependencies": {
-    "@automation/m4nodejs": "^1.1.11",
-    "@types/jasmine": "^3.5.7",
+    "@types/jasmine": "^3.5.3",
+    "@types/node": "^13.1.7",
     "jasmine": "^3.5.0",
     "jasmine-reporters": "^2.3.2",
     "jasmine-spec-reporter": "^4.2.1",
+    "jsdom": "16.1.0",
+    "jsdom-global": "3.0.2",
+    "nyc": "^15.0.0",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@types/node": "^13.7.7"
+    "@automation/m4nodejs": "^1.1.11"
   }
 }

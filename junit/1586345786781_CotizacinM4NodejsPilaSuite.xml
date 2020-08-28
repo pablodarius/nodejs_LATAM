@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="1" time="0.248">
+ <testsuite name="Cotización M4Nodejs Pila Suite" timestamp="2020-04-08T13:36:29" hostname="localhost" time="0.248" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Cotización M4Nodejs Pila Suite" name="Should create an instance" time="0.008">
+   <failure type="toBeTruthy" message="Expected undefined to be truthy."><![CDATA[Error: Expected undefined to be truthy.
+    at <Jasmine>
+    at UserContext.<anonymous> (C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:15:26)
+    at <Jasmine>]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="3" time="0.002">
+ <testsuite name="METHOD Logon M4Nodejs Suite" timestamp="2020-08-28T10:58:37" hostname="localhost" time="0.002" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="METHOD Logon M4Nodejs Suite" name="METHOD Should create an instance" time="0" />
+  <testcase classname="METHOD Logon M4Nodejs Suite" name="METHOD Should do logon" time="0" />
+  <testcase classname="METHOD Logon M4Nodejs Suite" name="METHOD TipoCotizante NOT 23 for Planilla-E" time="0" />
+ </testsuite>
+</testsuites>

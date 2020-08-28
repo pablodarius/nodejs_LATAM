@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.011">
+ <testsuite name="M4Nodejs suite" timestamp="2020-04-08T13:19:29" hostname="localhost" time="0.011" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="M4Nodejs suite" name="TipoCotizante NOT 23 for Planilla-E" time="0" />
+ </testsuite>
+</testsuites>

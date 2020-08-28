@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="3" time="33.945">
+ <testsuite name="Cotización M4Nodejs Pila Suite wrapper" timestamp="2020-03-11T14:40:22" hostname="localhost" time="33.945" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Cotización M4Nodejs Pila Suite wrapper" name="Should create an instance" time="0.001" />
+  <testcase classname="Cotización M4Nodejs Pila Suite wrapper" name="Should do logon" time="0.363" />
+  <testcase classname="Cotización M4Nodejs Pila Suite wrapper" name="TipoCotizante NOT 23 for Planilla-E" time="3.57" />
+ </testsuite>
+</testsuites>

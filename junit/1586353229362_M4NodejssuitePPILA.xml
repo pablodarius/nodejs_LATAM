@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="1" time="0.219">
+ <testsuite name="M4Nodejs suite PPILA" timestamp="2020-04-08T15:40:31" hostname="localhost" time="0.219" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="M4Nodejs suite PPILA" name="TipoCotizante NOT 23 for Planilla-E" time="0.06">
+   <failure type="exception" message="[object Object] thrown"><![CDATA[[object Object] thrown]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

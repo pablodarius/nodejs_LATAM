@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="2" tests="2" time="0.243">
+ <testsuite name="Cotización M4Nodejs Pila Suite" timestamp="2020-08-28T13:40:22" hostname="localhost" time="0.243" errors="0" tests="2" skipped="0" disabled="0" failures="2">
+  <testcase classname="Cotización M4Nodejs Pila Suite" name="Should create an instance" time="0.008">
+   <failure type="toBeTruthy" message="Expected undefined to be truthy."><![CDATA[Error: Expected undefined to be truthy.
+    at <Jasmine>
+    at UserContext.<anonymous> (C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:18:26)
+    at <Jasmine>]]>
+   </failure>
+  </testcase>
+  <testcase classname="Cotización M4Nodejs Pila Suite" name="Should do logon" time="0.001">
+   <failure type="exception" message="TypeError: Cannot read property &apos;logon&apos; of undefined"><![CDATA[at <Jasmine>
+    at C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:23:46
+    at step (C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:33:23)
+    at Object.next (C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:14:53)
+    at C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:8:71
+    at <Jasmine>
+    at __awaiter (C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:4:12)
+    at UserContext.<anonymous> (C:\M4CI_scripts\nodejs_LATAM\__tests__\__colombia.pila__\01_m4node.pila.spec.ts:21:27)
+    at <Jasmine>]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
